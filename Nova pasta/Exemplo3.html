@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img.a {
+            width: 20px;
+            height: 20px;
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Avaliação Regimental - Novembro</h1>
+    <hr>
+    <form>
+        <fieldset>
+            <legend>Dados Pessoas do aluno</legend>
+
+            <strong>Nome:</strong><br>
+            <input type="text" name="txt_nome" id="nome" required="required"><br>
+
+            <Strong>E-mail:</Strong><br>
+            <input type="email" name="txt_email" id="email"><br>
+
+            <Strong>Curso:</Strong>
+            <select name="Curso">
+                <option value=""></option>
+                <option value="curso1">ADS</option>
+                <option value="curso2">CCP</option>
+                <option value="curso3">JD</option>
+            </select><br>
+
+
+            <button type="submit">
+                <img class="a" src="imagens/pinto.svg">
+            </button>
+        </fieldset>
+    </form>
+    <hr>
+    <strong>Questão 1:</strong>
+    <p>Qual o carro que o Alcides faz feira?</p>
+    <p>
+        a) <input type="radio" name="carro" id="c1" value="ca1">Ferrari<br>
+        b) <input type="radio" name="carro" id="c2" value="ca2">Lamborghini<br>
+        c) <input type="radio" name="carro" id="c3" value="ca3">Elba Weekend<br>
+        c) <input type="radio" name="carro" id="c4" value="ca4">Fiat Uno<br>
+    </p>
+    <hr>
+    <strong>Questão 2:</strong>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Alias id deserunt, natus eligendi tenetur molestiae
+        magnam voluptatibus. Praesentium maiores modi eaque error doloremque cupiditate voluptate placeat et deserunt
+        iure! Vitae.</p>
+    <textarea rows="5" cols="80" name="q2" id="q2"></textarea><br>
+
+    <hr>
+
+    <strong>Questão 3:</strong>
+    <p>Qual anime você gosta?</p>
+    <p>
+        a) <input type="checkbox" name="anime" id="al" value="NRG">Noragami<br>
+        b) <input type="checkbox" name="anime" id="al" value="Naruto">Naruto<br>
+        c) <input type="checkbox" name="anime" id="al" value="op">One Piece<br>
+        d) <input type="checkbox" name="anime" id="al" value="bl">Bleach<br>
+    </p>
+    <hr>
+    <button type="button" id="btn1">Salvar Prova</button>
+    </form>
+    <div id="rel"></div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>

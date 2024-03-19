@@ -1,0 +1,63 @@
+#placa{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.placa{
+    border: 2px solid;
+    border-radius: 50px 50px 0px 0px;
+    width: 430pt;
+    height: 400px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 5px;
+
+}
+.flex{
+    display: flex;
+    align-items: center;
+    margin: 10px;
+}
+
+img{
+    width: 250px;
+    margin: 0px;
+    background-color: white;
+}
+p{
+    text-align: left;
+    margin: 0px 10px 3px 10px;
+    font-weight: 800;
+    font-size: 17pt;
+}
+
+.leve{
+    background-color: #d1e7f6;
+    border: #51abe7 solid;
+}
+.media{
+    background-color: #ffcc99;
+    border: #f89d42 solid;
+}
+.grave{
+    background-color: #ff7c80;
+    border: #ff272e solid;
+}
+.gravissima{
+    background-color: #7f7f7f;
+    border: #363636 solid;
+    color: #ffffff;
+}
+
+samp{
+    padding-top: 0px;
+    font-weight: 800;
+    font-size: 27pt;
+}
+input, button{
+    width: 300px;
+    height: 50px;
+    margin: 10px;
+    font-size: 20pt;
+    border-radius: 10px;
+}

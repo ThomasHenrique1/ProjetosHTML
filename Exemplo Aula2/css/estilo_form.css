@@ -1,0 +1,58 @@
+body{
+background: linear-gradient(#f00, #000);
+    background-attachment: fixed;
+}
+form{
+    background-color:#ccc;
+    background-image: url("../Imagens/passaro2.jpg");
+    background-size:100% 100%;
+    width: 500px;
+    margin: 100px auto;
+    border-radius: 10px;
+    padding: 20px;
+    box-shadow: 0px 5px 10px 5px #ffffff;
+}
+
+.row{
+    display: flex;
+    margin: 10px;
+}
+
+label{
+    width: 80px;
+    height: 40px;
+    line-height: 40px ;
+    font-weight: bold;
+    text-align: right;
+    padding: 10px;
+
+}
+
+input{
+    width: 350px;
+    height: 40px;
+    border: 0px;
+    background-color: #ccc;
+    border-bottom: 2px solid yellow;
+    
+    
+}
+button{
+    background-color: #ec7e35;
+    width: 150px;
+    height: 40px;
+    margin: auto;
+    border-radius: 20px;
+    border: 0;
+    box-shadow: 0px 0px 10px 3px #f00;
+    transition: width 15s;
+}
+
+
+button:hover{
+    width: 300px;
+}
+input:hover{
+    background-color: #000;
+    color: #ffffff;
+}

@@ -1,0 +1,18 @@
+#figurinhas{
+    display: flex;
+    flex-wrap: wrap;
+width: 550px;
+margin: auto;
+}
+
+#figurinhas img{
+    width: 150px;
+    height: 150px;
+    margin: 5px;
+    border: 2px dashed green;
+    border-radius: 75px;
+}
+img:hover{
+    box-shadow: 0px 0px 10px 5px black;
+    transition: all 1s;
+}

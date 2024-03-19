@@ -1,0 +1,36 @@
+/* seletor tipo */
+p{
+    color: #ff0000;
+    font-size: 20pt;
+    margin: 20px;
+ margin-bottom: 100px;
+}
+
+body{
+    background: linear-gradient(purple, #0075e2);
+    background-attachment: fixed;
+
+}
+/* seletor classe
+criando com o . */
+
+.caixa{
+    border: 2px solid black;
+    padding: 20px;
+    padding-left: 50px;
+    text-align: justify;
+    width: 300px;
+    border-radius: 20px 100px 20px 100px;
+}
+.sombra{
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+/* seletor individual 
+criador com a # */
+
+#main{
+    color: #690101;
+    font-weight:  bold;
+    text-shadow: 0px 0px 5px black;
+}
