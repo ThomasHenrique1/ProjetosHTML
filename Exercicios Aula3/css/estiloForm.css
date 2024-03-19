@@ -1,0 +1,15 @@
+body{
+    font-family: verdana;
+    font-size: 18pt;
+}
+.caixa1{
+    background: #eeea0e;
+    border: 0px;
+    border: 1px solid #000000;
+    font-size: 18pt;
+}
+form{
+    width: 400px;
+    border: 22px double #f00;
+    padding: 30px;
+}

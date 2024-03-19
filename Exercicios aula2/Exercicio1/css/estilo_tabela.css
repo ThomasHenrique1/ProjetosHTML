@@ -1,0 +1,86 @@
+    table.tbl{
+    text-align: center;
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #dddddd;
+    padding: 5px 0px 0px 0px; 
+    margin-top: 80px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif
+    
+    }
+    
+    tr{
+        border: 1px solid gainsboro;
+        box-shadow: 1px 1px 1px 1px #d1d0d0,#ff7b00;
+        text-align: center;
+    
+    }
+    td{
+        border: 1px solid gainsboro;
+        width: 60px;
+        height: 60px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    body{
+        background: linear-gradient(#ffffff, #09caaa);
+        background-attachment: fixed;
+        
+    
+    }
+
+    th.p{
+       
+        background-color: #9c9c9c;
+        width: 40px;
+        height: 40px;
+       border-top: 3px solid #414141;
+       width: 100px;
+       font-size: 12pt;
+    }
+    th.A{
+        background-color: #75f887;
+        border-top: 3px solid #006d00;
+        width: 200px;
+        
+    }
+    th.I{
+        background-color: #96b6fc;
+        border-top: 3px solid #004074;
+        width: 200px;
+        
+    }
+    th.w{
+        background-color: #c593fd;
+        border-top: 3px solid #4e0072;
+        width: 200px;
+        
+    }
+    th.O{
+        background-color: #fca056;
+        border-top: 3px solid #ff7b00;
+        width: 200px;
+        
+    }
+
+    td{
+        background-color: #dddddd;
+        border-spacing: 0px;
+        
+    }
+
+td.a{
+    font-weight: bold;
+}
+p{
+    margin-left: 210px;
+    color: #000000;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif
+    
+}
+    

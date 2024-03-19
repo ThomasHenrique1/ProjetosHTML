@@ -1,0 +1,19 @@
+body{
+    background: linear-gradient(#9455ad, #50eb50);
+        background-attachment: fixed;
+        font-size: 15pt;
+        font-family: 'Times New Roman', Times, serif;
+}
+
+.bolha{
+    
+   font-size: 15pt;
+   font-family: 'Times New Roman', Times, serif;
+    margin: 2px solid black;
+    border-radius: 10px;
+    box-shadow: 3px 3px 3px black;
+    background-color: #f3f3f3;
+    text-align: center;
+    height: 350px;
+    width: 600px;
+}
