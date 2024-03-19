@@ -1,0 +1,334 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>Aula 08 exerc 1</title>
+</head>
+<style type="text/css">
+    body {
+        display: flex;
+        width: 780px;
+        flex-direction: column;
+        background-color: lightslategray;
+
+        margin-left: 125px;
+    }
+
+    div.gh {
+        border: 3px solid black;
+        color: #ffffff;
+        background-image: linear-gradient(black, yellow);
+    }
+
+    header h1 {
+        margin-left: 10px;
+        margin-bottom: 0cm;
+        font-size: 2pc;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    header p {
+        font-size: 1pc;
+        margin-top: 0cm;
+        margin-left: 10px;
+        font-family: 'Libre Franklin', sans-serif;
+    }
+
+    section.partft {
+        display: flex;
+        width: 780px;
+        flex-direction: row;
+        justify-content: center;
+    }
+
+    section article.partdtr {
+        margin: 0px;
+        display: flex;
+        width: 50%;
+        justify-content: flex-end;
+        flex-direction: row;
+    }
+
+    section article.partdtr img {
+        margin: 10px 0px 10px 0px;
+        width: auto;
+        height: 200px;
+    }
+
+    section article.partdtr h2 {
+        font-size: 6pc;
+        margin: 30% 10px 0px 0px;
+    }
+
+    section article.partdtr p {
+        margin: 0px 20px 20px 0px;
+        font-size: 30px;
+    }
+
+    hr.um {
+        width: 0px;
+        border: 1px solid black;
+    }
+
+    section article.ma {
+        width: 50%;
+    }
+
+    section article.ma div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section article.ma div p {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    section article.ma div p span {
+        margin-left: 5px;
+        font-size: 19px;
+    }
+
+    p.cx4 {
+        float: right;
+        font-size: 2pc;
+        margin-right: 450px;
+    }
+
+    section article.ma {
+        width: 50%;
+    }
+
+    section article.ma div {
+        display: flex;
+        flex-direction: row;
+    }
+
+    section article.ma div p {
+        font-size: 30px;
+        margin: 20px;
+    }
+
+    section article.ma div p span {
+        margin-left: 5px;
+        font-size: 19px;
+    }
+
+    section.ts {
+        display: flex;
+        margin: 10px 0px 20px 0px;
+        flex-direction: row;
+        justify-content: center;
+
+    }
+
+    section.ts div {
+        margin: 0px 10px 0px 10px;
+        width: 100%;
+        text-align: center;
+        background-color: cadetblue;
+        border-radius: 1pc;
+    }
+
+    section.ts div img {
+        margin: 0px;
+    }
+
+    section.ts div p {
+        margin: 5px 0px 20px 0px;
+    }
+
+    section.ts div p.tg {
+        margin: 20px 0px 5px 0px;
+    }
+</style>
+
+<body>
+    <div class="gh">
+        <header>
+            <h1>São Paulo, SP</h1><br>
+            <p>Segunda 13 de Abril</p>
+        </header>
+        <section class="partft">
+            <article class="partdtr"><img src="icone1.png">
+                <span>
+                    <h2>21°</h2>
+                    <p>Ensolarado</p>
+                </span>
+            </article>
+            <hr class="um">
+            <article class="ma">
+                <div>
+                    <p>25°<br><span>Max</span></p>
+                    <p>12Km/h<br><span>Vento</span></p>
+                    <p>05:00<br><span>Nacer do Sol</span></p>
+                </div>
+                <div>
+                    <p>10°<br><span>Min</span></p>
+                    <p>0%<br><span>Chuva</span></p>
+                    <p>18:00<br><span>Pôr do Sol</span></p>
+                </div>
+            </article>
+        </section>
+        <section class="ts">
+            <div>
+                <p class="tg">3:00</p>
+                <img src="icone3.png">
+                <p>15°</p>
+            </div>
+            <div>
+                <p class="tg">6:00</p>
+                <img src="icone2.png">
+                <p>18°</p>
+            </div>
+            <div>
+                <p class="tg">9:00</p>
+                <img src="icone2.png">
+                <p>17°</p>
+            </div>
+            <div>
+                <p class="tg">12:00</p>
+                <img src="icone1.png">
+                <p>25°</p>
+            </div>
+            <div>
+                <p class="tg">15:00</p>
+                <img src="icone1.png">
+                <p>22°</p>
+            </div>
+            <div>
+                <p class="tg">18:00</p>
+                <img src="icone2.png">
+                <p>19°</p>
+            </div>
+            <div>
+                <p class="tg">21:00</p>
+                <img src="icone3.png">
+                <p>17°</p>
+            </div>
+            <div>
+                <p class="tg">23:59</p>
+                <img src="icone3.png">
+                <p>15°</p>
+            </div>
+        </section>
+        <section>
+            <table width=765px height=20px align=center>
+                <hr class="jh" width="765px">
+                <tr>
+                    <td>
+                        TER<br>
+                        14/04
+                    </td>
+                    <td>
+                        <img src="icone2.png">
+                    </td>
+                    <td>
+                        23º<br>
+                        max
+                    </td>
+                    <td>
+                        16º<br>
+                        Min
+                    </td>
+                    <td>
+                        12km/h<br>
+                        Vento
+                    </td>
+                    <td>
+                        10%<br>
+                        Chuva
+                    </td>
+                </tr>
+            </table>
+            <hr width="765px">
+            <table width=765px height=20px align=center>
+                <tr>
+                    <td>
+                        QUA<br>
+                        15/04
+                    </td>
+                    <td>
+                        <img src="icone1.png">
+                    </td>
+                    <td>
+                        26º<br>
+                        max
+                    </td>
+                    <td>
+                        18º<br>
+                        Min
+                    </td>
+                    <td>
+                        15km/h<br>
+                        Vento
+                    </td>
+                    <td>
+                        8%<br>
+                        Chuva
+                    </td>
+                </tr>
+            </table>
+            <hr width="765px">
+            <table class="tb3" width=765px height=20px align=center>
+                <tr>
+                    <td>
+                        QUI<br>
+                        16/04
+                    </td>
+                    <td>
+                        <img src="icone1.png">
+                    </td>
+                    <td>
+                        27º<br>
+                        max
+                    </td>
+                    <td>
+                        16º<br>
+                        Min
+                    </td>
+                    <td>
+                        10km/h<br>
+                        Vento
+                    </td>
+                    <td>
+                        5%<br>
+                        Chuva
+                    </td>
+                </tr>
+            </table>
+            <hr width="765px">
+            <table class="tb4" width=765px height=20px align=center>
+                <tr>
+                    <td>
+                        SEX<br>
+                        17/04
+                    </td>
+                    <td>
+                        <img src="icone4.png">
+                    </td>
+                    <td>
+                        20º<br>
+                        max
+                    </td>
+                    <td>
+                        14º<br>
+                        Min
+                    </td>
+                    <td>
+                        11km/h<br>
+                        Vento
+                    </td>
+                    <td>
+                        15%<br>
+                        Chuva
+                    </td>
+                </tr>
+            </table>
+            <hr width="765px">
+        </section>
+    </div>
+</body>
+
+</html>
